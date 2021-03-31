@@ -49,7 +49,7 @@ const NewsList = {
 
     fetch("https://newsapi.org/v2/top-headlines?country=us", {
       headers: {
-        Authorization: "Bearer 872e7d8fc8284c86b410ca633ba285ba",
+        Authorization: "Bearer <your-api-token>",
       },
     })
       .then(function (response) {
@@ -80,7 +80,7 @@ const NewsList = {
           "&language=en",
         {
           headers: {
-            Authorization: "Bearer 872e7d8fc8284c86b410ca633ba285ba",
+            Authorization: "Bearer <your-api-token>",
           },
         }
       )
