@@ -5,3 +5,27 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+h2{
+
+	text-align: center;
+}
+
+
+.border{
+    border-top: 5px rgb(80, 201, 80) solid !important;
+    border-radius: 5px !important;
+    box-shadow: 2px 2px 15px gray !important;
+}
+
+.bottomSpace{
+    margin-bottom: 20px !important;
+}
+
+ul{
+    list-style-type: none !important;
+}
+
+p{
+	word-wrap: break-word;
+}
